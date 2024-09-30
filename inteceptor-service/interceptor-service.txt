@@ -1,0 +1,27 @@
+import ballerina/http;
+//import ballerina/log;
+
+service /api/v1 on new http:Listener(8080) {
+
+    // resource function post handle\u{002D}request(http:Caller caller, http:Request req) returns error? {
+    //     log:printInfo("Received request for /api/v1/handle-request");
+
+    //     json payload = {
+    //         "message": "Hello, World!",
+    //         "status": "success"
+    //     };
+
+    //     log:printInfo("Sending response for /api/v1/handle-request");
+    //     check caller->respond(payload);
+    // }
+
+    // resource function get .(http:Caller caller, http:Request req) returns error? {
+    //     log:printWarn("No matching service found for the requested path");
+
+    //     json errorPayload = {
+    //         "error": "No matching service found"
+    //     };
+
+    //     check caller->respond(errorPayload);
+    // }
+}
